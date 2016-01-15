@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h1>Contact List App</h1>
-				<table class="table">
+				<table class="table table-hover">
 					<thead>
 						<tr>
 							<th>Name</th>
@@ -19,6 +19,13 @@
 							<th>Number</th>
 						</tr>
 					</thead>
+					<tbody>
+						<tr ng-repeat="contact in contactList">
+							<td>{{contact.name}}</td>
+							<td>{{contact.email}}</td>
+							<td>{{contact.number}}</td>
+						</tr>
+					</tbody>
 				</table>
 				
 			</div>

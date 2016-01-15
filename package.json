@@ -1,0 +1,15 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "my first app with nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "AlexPlex",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

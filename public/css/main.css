@@ -1,0 +1,9 @@
+.cover{
+	width: 100%;
+	max-width: 600px;
+	height: 200px;
+	background: url(../img/mean.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
